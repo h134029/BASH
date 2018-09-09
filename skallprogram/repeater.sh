@@ -1,9 +1,7 @@
-#!/bin/sh
+#!/bin/bash
 
-repeater_Text="Denne teksten skal repeteres"
-repeater_Antall=5
-
-for i in $(seq $repeater_Antall)
+declare -i antall
+for ((antall=0;antall<$1;++antall))
 do
-  echo $repeater_Text
+  echo "$2"
 done
