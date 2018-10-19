@@ -1,2 +1,2 @@
 # BASH
-Shell scripts for DAT103
+Code for course DAT103
